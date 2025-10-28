@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -500,7 +500,7 @@
             <div class="footer-links">
                 <a href="#home">Home</a>
                 <a href="https://github.com/Chrysanthi-Kosyfaki"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://chrysanthi-kosyfaki.github.io"><i class="fas fa-globe"></i> Website</a>
+                <a href="https://kosyfakicse.github.io"><i class="fas fa-globe"></i> Website</a>
             </div>
             <div class="footer-copyright">
                 © 2025 Chrysanthi Kosyfaki. Last updated October 2025
