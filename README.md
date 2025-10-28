@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,6 +52,12 @@
             display: flex;
             list-style: none;
             gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links li {
+            margin: 0;
+            padding: 0;
         }
 
         .nav-links a {
@@ -168,13 +174,11 @@
             text-decoration: underline;
         }
 
-        .highlight-box {
-            background-color: #e3f2fd;
-            border-left: 4px solid #001f3f;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            color: #001f3f;
-            font-weight: 500;
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            font-style: italic;
         }
 
         .news-section {
@@ -329,19 +333,16 @@
         </div>
 
         <article class="page-content" id="home">
-            <section class="news-section">
-                <h2>ABOUT ME</h2>
+            <section>
+                <h2 class="section-title">ABOUT ME</h2>
                 <p>I am a postdoctoral research fellow in the <a href="https://cse.hkust.edu.hk/">Department of Computer Science and Engineering</a> at Hong Kong University of Science and Technology.</p>
-
                 <p>Previously, I was a postdoctoral research associate at the University of Hong Kong. I obtained my Ph.D. degree from University of Ioannina, Computer Science and Engineering Department, working with Prof. Nikos Mamoulis.</p>
             </section>
 
             <section class="news-section">
                 <h2>RESEARCH INTERESTS</h2>
                 <p>My research interests lie in the area of spatiotemporal data management and flow analytics in large graphs, with a particular focus on a new class of networks called Temporal Interaction Networks (TINs). These networks model dynamic systems where entities exchange quantities, such as financial transactions, transportation flows, or communication data.</p>
-
                 <p>Over the past few years, I have been developing efficient solutions to optimize classical problems—such as max-flow computation—by introducing the temporal dimension. Currently, my work focuses on data provenance analytics in large graphs, with an emphasis on designing techniques to trace the origin of transmitted quantities in graph-structured data.</p>
-
                 <p>Recently, I have also started exploring the Text-to-SQL domain, focusing on addressing challenges related to text ambiguity in natural language database queries.</p>
             </section>
 
@@ -412,12 +413,11 @@
                     <div class="publication-venue">October 2025</div>
                 </div>
 
-                  <div class="publication-item">
+                <div class="publication-item">
                     <div class="publication-title">Flow Analytics in Large-Scale Networks</div>
                     <div class="publication-authors">Hong Kong University of Science and Technology</div>
                     <div class="publication-venue">November 2024</div>
                 </div>
-
             </section>
 
             <section id="students" class="news-section">
@@ -499,7 +499,7 @@
         <div class="footer-content">
             <div class="footer-links">
                 <a href="#home">Home</a>
-                <a href="https://github.com/Chrysanthi-Kosyfaki"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://github.com/kosyfakicse"><i class="fab fa-github"></i> GitHub</a>
                 <a href="https://kosyfakicse.github.io"><i class="fas fa-globe"></i> Website</a>
             </div>
             <div class="footer-copyright">
